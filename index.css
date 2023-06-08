@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: url(imaseg/1670037825_12-pibig-info-p-krasivii-fon-zvezdi-vkontakte-12.jpg);
+  height: auto;
+  width: auto;
+}
+
+.header {
+ background-image: url(imaseg/1670037825_12-pibig-info-p-krasivii-fon-zvezdi-vkontakte-12.jpg);
+  background-size: cover;
+  height: 1000px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.head {
+  position: absolute;
+  top: 600px;
+  left: 600px;
+}
+
+.head-a {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 40px;
+  margin: 80px;
+}
+
+.users-list{
+  display: grid;
+    margin: 45px;
+    grid-template-columns: repeat(4, 25%);
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    row-gap: 15px;
+    background: blue;
+    text-align: center;
+    background: rgb(71, 71, 122);
+}
+
+button{
+  max-width: 100px;
+  background-image: url(imaseg/1670037825_12-pibig-info-p-krasivii-fon-zvezdi-vkontakte-12.jpg);
+  color: white;
+} 
+
+.footer {
+  display: flex;
+  column-gap: 700px;
+  height: 100px;
+  background: black;
+  color: white;
+}
